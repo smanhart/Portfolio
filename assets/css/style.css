@@ -1,0 +1,11 @@
+body {
+    background-image: url(../images/pexels-photo-1083822.jpeg)
+}
+
+.my-wrapper {
+    height: 100%;
+  }
+
+.card {
+    color: #694552;
+}
