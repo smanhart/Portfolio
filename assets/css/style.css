@@ -1,11 +1,22 @@
-body {
-    background-image: url(../images/pexels-photo-1083822.jpeg)
+
+.head {
+    opacity: 80%;
+    color: #694552;
+    margin: 200px 0;
 }
 
-.my-wrapper {
-    height: 100%;
+.parallax-container {
+    height: 650px;
   }
 
-.card {
-    color: #694552;
+.p1 {
+    margin-top: 0;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.textCol {
+    color: #eee;
 }
