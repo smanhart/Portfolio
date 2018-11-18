@@ -33,6 +33,10 @@ body {
     margin-top: 0;
 }
 
+.card-image {
+    height: 250px;
+}
+
 img {
     margin-bottom: 10px;
 }
