@@ -17,27 +17,28 @@
 
 <body>
     <div class="parallax-container">
-        <div class="parallax"><img src="assets/images/pexels-photo-1083822.jpeg"></div>
+        <!-- <div class="parallax"><img src="assets/images/pexels-photo-1083822.jpeg"></div> -->
+        <div class="parallax"><img src="assets/images/annie-spratt-695511-unsplash_edited.jpg"></div>
         <div class="container">
-            <div class="section row">
+            <div class=" row">
                 <div class="col s12 m8 offset-m2 ">
-                    <div class="card head grey darken-4">
+                    <div class="card head ">
                         <div class="card-content grey-text text-lighten-4">
                             <span class="card-title section center-align text-focus-in title">Hello, I'm Stephanie</span>
-                            <p class="center-align">I'm a creative Web Developer with a love for intuitive design.</p>
+                            <p class="center-align">I'm a creative Web Developer with a talent for details.</p>
                         </div>
                         <div class="card-action center-align">
-                            <a class="link red-text text-lighten-4" href="#about">About</a>
-                            <a class="link red-text text-lighten-4" href="#skills">Skills and Technologies</a>
-                            <a class="link red-text text-lighten-4" href="#portfolio">Portfolio</a>
-                            <a class="link red-text text-lighten-4" href="#contact">Contact</a>
+                            <a class="link brown-text" href="#about">About</a>
+                            <a class="link brown-text" href="#skills">Skills and Technologies</a>
+                            <a class="link brown-text" href="#portfolio">Portfolio</a>
+                            <a class="link brown-text" href="#contact">Contact</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section grey darken-4">
+    <div class="section ">
         <div class="row container">
             <div class="row">
                 <div class="col m12">
@@ -50,23 +51,23 @@
                     <img class="responsive-img mypic" src="assets/images/IMG_0424_edited.jpg">
                 </div>
                 <div class="col m8">
-                    <p class="grey-text text-lighten-4 p1">
+                    <p class="brown-text p1 aboutTxt">
                         After working for nearly a decade to help pensioners access their retirement benefits, I have
                         honed a keen eye for efficiency and detail. In addition, I have cultivated the
                         talent to
                         earnestly listen, ensuring people feel heard and feel that their needs are met.
                     </p>
-                    <p class="grey-text text-lighten-4">
+                    <p class="brown-text aboutTxt">
                         I am passionate about creative pursuits, from designing and building photo booths for parties
                         and
                         conferences, to sewing custom clothes for clients. Moving into web development is a natural
                         progression
                         which marries my talent for detail with my love for making.
                     </p>
-                    <p class="grey-text text-lighten-4">
+                    <p class="brown-text aboutTxt">
                         Having completed a rigorous full stack development bootcamp with the University of Denver, I
                         have built numerous web applications from scratch
-                        using languages such as HTML, CSS, and JavaScript. Armed with these skills, I look forward to
+                        using JavaScript, React, MySQL, MongoDB, and other technologies. Armed with these skills, I look forward to
                         building
                         client connections and turning their thoughts into well-built websites.
                     </p>
@@ -76,19 +77,20 @@
         <div class="row container">
             <a name="Skills"></a>
             <h3 class="header red-text text-lighten-4">Skills and Technologies</h3>
-            <p class="grey-text text-lighten-4 skill">JavaScript | JQuery | MySQL | Sequelize | Node.js | HTML | CSS |
-                Firebase</p>
-            <p class="grey-text text-lighten-4 skill">Handlebars | Express | Passport | BCrypt | Materialize |
-                Bootstrap</p>
+            <p class="brown-text skill">JavaScript | JQuery | React | Node.js | HTML | CSS | Firebase</p>
+            <p class="brown-text skill">MySQL | Sequelize | MongoDB | Mongoose | Axios | Ajax</p>
+            <p class="brown-text skill">Handlebars | Express | Passport | BCrypt | Materialize | Bootstrap</p>
         </div>
     </div>
 
     <div class="parallax-container smallPar">
-        <div class="parallax"><img src="assets/images/pexels-photo-1083822.jpeg"></div>
+        <!-- <div class="parallax"><img src="assets/images/pexels-photo-1083822.jpeg"></div> -->
+        <div class="parallax"><img src="assets/images/annie-spratt-695511-unsplash_edited.jpg"></div>
     </div>
+    
 
 
-    <div class="section grey darken-4">
+    <div class="section ">
         <div class="row container">
             <a name="portfolio"></a>
             <h3 class="header red-text text-lighten-4">Portfolio</h3>
@@ -97,8 +99,27 @@
                 <div class="col m4">
                     <div class="card medium portCard sticky-action">
                         <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator previewPic" src="assets/images/team-3373638_1920.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Enabling the Web<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://enablingtheweb.herokuapp.com/" target="_blank" class="link grey-text text-darken-2">Website</a>
+                            <a href="https://github.com/smanhart/WebAccess" target="_blank" class="link grey-text text-darken-2">GitHub</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Enabling the Web<i class="material-icons right">close</i></span>
+                            <p>An application for developers to learn how to apply web accessibility standards to their code.</p>
+                                
+                            <p>Built with the MVC pattern and using React, ES6, MongoDB, Mongoose, Underscore, MDB React styling, Axios, NodeJS, Express, and tested with Jest. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m4">
+                    <div class="card medium portCard sticky-action">
+                        <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator previewPic" src="assets/images/pexels-photo-305558mobile.jpeg">
-
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Live Your Green<i class="material-icons right">more_vert</i></span>
@@ -109,10 +130,13 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Live Your Green<i class="material-icons right">close</i></span>
-                            <p>A group project using MySQL, Sequelize, Node, Passport, BCrypt, Express, and Handlebars.  </p>
+                            <p>An application to calculate your carbon footprint and find recycling resources.</p>
+                            <p>Built using the MVC pattern, MySQL, Sequelize, NodeJS, Passport, BCrypt, Express, and Handlebars.  </p>
+                            <p>Try it out using the login "test@test.com" and password "test".</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col m4">
                     <div class="card medium portCard sticky-action">
                         <div class="card-image waves-effect waves-block waves-light">
@@ -128,12 +152,15 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Eat Da Burger<i class="material-icons right">close</i></span>
+                            <p>A simple application where you can create a burger of your choosing and then add it to an eaten list.</p>
                             <p>This application showcases MySQL, Node, Express, Handlebars, a custom ORM, and a MVC
                                 file structure.</p>
                         </div>
                     </div>
                 </div>
+            </div>
 
+            <div class="row">
                 <div class="col m4">
                     <div class="card medium portCard sticky-action">
                         <div class="card-image waves-effect waves-block waves-light">
@@ -149,14 +176,11 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Gif Assignment<i class="material-icons right">close</i></span>
-                            <p>An application using ajax calls to the Giphy API. Used JavaScript, JQuery, Ajax, CSS,
-                                and HTML. </p>
+                            <p>Use the buttons to search for cartoon gifs or create your own, then save your favorites.</p>
+                            <p>The app uses JavaScript, JQuery, Ajax, CSS, HTML, and the Giphy API. </p>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
                 <div class="col m4">
                     <div class="card medium portCard sticky-action">
                         <div class="card-image waves-effect waves-block waves-light">
@@ -179,25 +203,6 @@
                 <div class="col m4">
                     <div class="card medium portCard sticky-action">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator previewPic" src="assets/images/trainCrop.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Train Schedule<i class="material-icons right">more_vert</i></span>
-                        </div>
-                        <div class="card-action text-muted">
-                            <a href="https://smanhart.github.io/Train-Schedule/" target="_blank" class="link grey-text text-darken-2">Website</a>
-                            <a href="https://github.com/smanhart/Train-Schedule" target="_blank" class="link grey-text text-darken-2">GitHub</a>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Train Schedule<i class="material-icons right">close</i></span>
-                            <p>An application using a Firebase database. Technologies include Javascript, JQuery,
-                                Firebase, Moment.js, CSS, Materialize, and HTML.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col m4">
-                    <div class="card medium portCard sticky-action">
-                        <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator previewPic" src="assets/images/FriendFinder_edited.jpg">
                         </div>
                         <div class="card-content">
@@ -210,6 +215,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Friend Finder<i class="material-icons right">close</i></span>
+                            <p>Make a friend connection! Take the survey to find your closest match.</p>
                             <p>Full stack application, built front end, server, and api. Technologies used were
                                 Express, JavaScript, JQuery, Node.js, Path, HTML, and Bootstrap.</p>
                         </div>
@@ -221,7 +227,8 @@
             <div class="row">
                 <a name="contact"></a>
                 <h3 class="header red-text text-lighten-4">Contact</h3>
-                <p class="grey-text text-lighten-4 lighten-3">Email: stephanie.manhart@gmail.com</p>
+                <p class="brown-text contInfo">Email: stephanie.manhart@gmail.com</p>
+                <p class="brown-text contInfo">Resume: <a href="assets/images/SManhartResume.doc.pdf">PDF</a></p>
                 <div>
                     <a href="https://www.linkedin.com/in/stephanie-manhart-4681a464" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
                     <a href="https://github.com/smanhart" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
@@ -231,7 +238,7 @@
         </div>
     </div>
     <div class="parallax-container smallPar">
-        <div class="parallax"><img src="assets/images/pexels-photo-1083822.jpeg"></div>
+        <div class="parallax"><img src="assets/images/annie-spratt-695511-unsplash_edited.jpg"></div>
     </div>
 
 

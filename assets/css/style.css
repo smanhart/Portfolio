@@ -1,15 +1,22 @@
 body {
     font-family: 'Lato', sans-serif;
+    
 }
 .title {
     font-family: 'Shadows Into Light', cursive;
     font-size: 4rem !important;
+    color: #7f6669;
 }
 .head {
-    opacity: 80%;
-    color: #694552;
+    
+    background-color: #90c9cc;
     margin: 200px 0;
 }
+
+.section {
+    background-color: #90c9cc;
+}
+
 
 .parallax-container {
     height: 650px;
@@ -21,7 +28,8 @@ height: 300px;
 
 .custParallax { 
     /* The image used */
-    background-image: url("../images/pexels-photo-1083822.jpeg");
+    /* background-image: url("../images/pexels-photo-1083822.jpeg"); */
+    background-image: url("../images/pexels-photo-988872.jpeg");
 
     /* Set a specific height */
     height: 300px; 
@@ -37,8 +45,17 @@ height: 300px;
     padding: 20px;
 }
 
+/* .header {
+    color: #f0b18e;
+    text-shadow: 1px 1px lightslategray; 
+} */
+
 .p1 {
     margin-top: 0;
+}
+
+.aboutTxt {
+    font-size: 1.25rem;
 }
 
 .skill {
@@ -81,6 +98,14 @@ img {
 
 a {
     color: grey;
+}
+
+.contInfo {
+    font-weight: bold;
+}
+
+a {
+    padding-right: 10px;
 }
 
 
